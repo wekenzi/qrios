@@ -1,0 +1,23 @@
+.item {
+    text-align: center;
+    border: 1px solid #ccc;
+    padding: 15px;
+    cursor: pointer;
+    -webkit-box-shadow: 0 3px 10px 3px #cccccc;
+    -moz-box-shadow: 0 3px 10px 3px #cccccc;
+    box-shadow: 0 3px 10px 3px #cccccc;
+}
+
+.item p {
+    margin: 5px 0 0 0;
+}
+
+.landscape {
+    width: 200px;
+    height: 150px;
+}
+
+.portrait {
+    width: 150px;
+    height: 200px;
+}

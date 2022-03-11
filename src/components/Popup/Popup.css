@@ -1,0 +1,77 @@
+.popup-box {
+    position: fixed;
+    background: #00000050;
+    width: 100%;
+    height: 100vh;
+    top: 0;
+    left: 0;
+}
+   
+.box {
+    position: relative;
+    margin: 0 auto;
+    height: auto;
+    max-height: 70vh;
+    margin-top: calc(100vh - 85vh - 20px);
+    background: #fff;
+    -webkit-border-radius: 4px;
+    -moz-border-radius: 4px;
+    border-radius: 4px;
+    padding: 20px;
+    border: 1px solid #999;
+    overflow: auto;
+    max-width: 600px;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+
+.box img {
+    width: 200px;
+    margin: auto;
+}
+
+.box h4 {
+    margin-bottom: 0;
+    font-size: 1.5rem;
+}
+
+.box p {
+    text-align: center;
+}
+
+.close-icon {
+    content: 'x';
+    cursor: pointer;
+    position: absolute;
+    right: 10px;
+    top: 10px;
+    background: #ededed;
+    width: 25px;
+    height: 25px;
+    border-radius: 50%;
+    line-height: 20px;
+    text-align: center;
+    border: 1px solid #999;
+    font-size: 20px;
+}
+
+.price {
+    background: #09c;
+    position: absolute;
+    top: 15px;
+    left: 20px;
+    padding: 5px 10px;
+    color: #fff;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    border-radius: 5px;
+    font-size: 20px;
+}
+
+@media screen and (max-width: 650px) {
+    .box {
+        margin: 0 20px;
+        margin-top: calc(100vh - 85vh - 20px);
+    }
+}
